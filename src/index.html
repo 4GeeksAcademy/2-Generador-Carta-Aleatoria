@@ -12,17 +12,48 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
+  <body class="bg-success text-light">
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
+      <h1 class="mt-4 ">Random Cart Generator</h1>
+
+      <div class="row d-flex justify-content-center mt-5 ">
+        <div
+          class="my-card  col-auto col-4 col-ms-3 col-md-2 bg-light text-dark  rounded "
+        >
+          <div
+            class="d-flex justify-content-start display-3"
+            style="height: 20%;"
+          >
+            <span id="top"></span>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center display-1"
+            style="height: 60%;"
+          >
+            <span id="number"></span>
+          </div>
+          <div
+            class="d-flex justify-content-end display-3"
+            style="height: 20%;"
+          >
+            <span id="end" style="transform: rotate(180deg);"></span>
+          </div>
+        </div>
+      </div>
+      <div class="m-2">
+        <button id="btnNewCard" class="btn btn-warning text-light my-5">
+          Nueva Carta
+        </button>
+      </div>
+      <div class="p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://github.com/DonBeta" class="text-warning"
+          >Carlos Betancourt</a
+        >
+        &
+        <a href="https://www.4geeksacademy.com" class="text-warning"
+          >4Geeks Academy</a
+        >
       </div>
     </div>
   </body>

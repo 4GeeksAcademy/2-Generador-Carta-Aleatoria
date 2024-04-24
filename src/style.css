@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.my-card {
+  font-family: serif;
+  height: 450px;
+}
